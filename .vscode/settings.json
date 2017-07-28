@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "c:/Users/84832/workspace/Python-Study/venv/scripts/python.exe",
+    // this denpend on where you install python2 pylint
+    "python.linting.pylintPath": "C:\\Users\\84832\\workspace\\Python-Study\\venv\\Scripts\\pylint.exe"
+}
