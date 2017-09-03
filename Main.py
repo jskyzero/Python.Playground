@@ -71,7 +71,7 @@ class Try1(object):
     def job4(self):
         # from
         # http://bookshadow.com/weblog/2015/11/21/sklearn-kmeans-captcha-character-cut/
-        im = np.array(Image.open("zftb-original.gif"))
+        im = np.array(Image.open("docs/zftb-original.gif"))
         h, w = im.shape
         X = [(h - x, y) for x in range(h) for y in range(w) if im[x][y]]
         X = np.array(X)
