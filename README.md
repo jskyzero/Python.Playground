@@ -1,6 +1,19 @@
-# PythonTheHardWay
+# Python27-Study
+> Python lets you work quickly and integrate systems more effectively.
 
-some practice code when I leaning python from 'the hard way'
+![python logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
+
+
+## Branches
+
++ FindNthNumber   : Random produce 100,000,000 number and find 100th largest number
++ NoteBook        : A basic note book use socket (client / server)
++ PictureToAscii  : Convert your picture to ascii characters
++ ProjectExample  : A python Project Example
++ YandeSpider     : A spider who downloads picture from yande.re
++ hardway         : Hard to learn
++ master          : master branch
+
 
 ## 关于环境配置
 
