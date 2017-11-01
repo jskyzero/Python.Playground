@@ -11,7 +11,6 @@
 + PictureToAscii  : Convert your picture to ascii characters
 + ProjectExample  : A python Project Example
 + YandeSpider     : A spider who downloads picture from yande.re
-+ hardway         : Hard to learn
 + master          : master branch
 
 
