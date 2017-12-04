@@ -1,22 +1,21 @@
-# Python27-Study
+# Python27
 > Python lets you work quickly and integrate systems more effectively.
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
 
 
-## Branches
+## Projects
 
 + FindNthNumber   : Random produce 100,000,000 number and find 100th largest number
 + NoteBook        : A basic note book use socket (client / server)
 + PictureToAscii  : Convert your picture to ascii characters
 + ProjectExample  : A python Project Example
 + YandeSpider     : A spider who downloads picture from yande.re
-+ master          : master branch
 
 
 ## 关于环境配置
 
-截止到今日时间2017/06/12位置，目前选择的平台是window，这里说一下关于环境的配置和对应编辑器的设置
+截止到今日时间2017/06/12位置，目前选择的平台是Window10，这里说一下关于环境的配置和对应编辑器的设置。（现在已经又变成Linux/Windows双开形式了，以下内容可用作Windows10 虚拟环境下的参考。
 
 ### virtualenv
 
