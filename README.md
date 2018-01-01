@@ -1,32 +1,50 @@
 # Python27
-> Python lets you work quickly and integrate systems more effectively.
+`jskyzero` `2018/01/01`
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
 
 
+## Overview
++ Python is a widely used high-level programming language for general-purpose programming,
++ Python lets you work quickly and integrate systems more effectively.
+
 ## Projects
+```
+.
+├── hardwork
+│   ├── hardway           // hardway to learn
+│   └── leetcode          // leetcode solutions
+├── projects
+│   ├── example           // Python Project Example
+│   ├── Find100thNumber   // Produce numbers, find Nth largest numbers
+│   ├── NoteBook          // A basic note book use socket (client/server)
+│   ├── PictureToAscii    // Convert your picture to ascii characters
+│   └── YandeSpider       // A spider downloading picture from yande.re
+└── README.md
+```
 
-+ FindNthNumber   : Random produce 100,000,000 number and find 100th largest number
-+ NoteBook        : A basic note book use socket (client / server)
-+ PictureToAscii  : Convert your picture to ascii characters
-+ ProjectExample  : A python Project Example
-+ YandeSpider     : A spider who downloads picture from yande.re
+## PEP 8 -- Style
++ Code lay-out
+  + Use 4 spaces per indentation level.
+  + Limit all lines to a maximum of 79 characters.
+  + Code in the core Python distribution should always use UTF-8 (or ASCII in Python 2).
++ Naming Styles
+  + Package and Module Names should have short, all-lowercase names. `lower_case_with_underscores`.
+  + Class names should normally use the CapWords convention.
+  + Names of type variables should normally use CapWords preferring short names: T, AnyStr, Num.
+  + Function names should be `lower_case_with_underscores`
+  + Function and method arguments
+    + Always use self for the first argument to instance methods
+    + Always use cls for the first argument to class methods.
+    + `class_` is better than `class`. (Perhaps better is to avoid such clashes by using a synonym.)
+  + Method Names and Instance Variables
+    + Use the function naming rules: `lower_case_with_underscores`
+    + Use one leading underscore only for non-public methods and instance variables.
+  + Constants are usually defined on a module level and written in all capital letters with underscores separating words. Examples include `MAX_OVERFLOW` and `TOTAL`.
 
+`lower_case_with_underscores` : lowercase with words separated by underscores as necessary to improve readability.
 
-## 关于环境配置
-
-截止到今日时间2017/06/12位置，目前选择的平台是Window10，这里说一下关于环境的配置和对应编辑器的设置。（现在已经又变成Linux/Windows双开形式了，以下内容可用作Windows10 虚拟环境下的参考。
-
-### virtualenv
-
-1. 分别安装python3，python2，分别安装必要包（比如`virtualenv`）
-2. 删除python2的path（最好装在`C:\Pathon27`）
-3. 使用的时候默认python3，短期使用可用py -2调用python2
-3. 长期使用用`virtualenv`的`-p C:\Pathon27\python.exe`来指定python2，默认就是python3
-
-### vscode
-
-1. 使用select interpreter 选择venv
-2. 使用lintpath选择对于lintpath
-
-[Reference](https://learnpythonthehardway.org)
+## Reference
++ [python](https://www.python.org)
++ [learnpythonthehardway](https://learnpythonthehardway.org)
++ [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
