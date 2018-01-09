@@ -16,6 +16,7 @@
 │   └── leetcode          // leetcode solutions
 ├── projects
 │   ├── example           // Python Project Example
+│   ├── FigureLetters     // Use KMeans to figure letters in picture
 │   ├── Find100thNumber   // Produce numbers, find Nth largest numbers
 │   ├── NoteBook          // A basic note book use socket (client/server)
 │   ├── PictureToAscii    // Convert your picture to ascii characters
