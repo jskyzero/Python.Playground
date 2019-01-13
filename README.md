@@ -1,4 +1,4 @@
-# Python27
+# Python
 `jskyzero` `2018/01/01`
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-generic.svg)

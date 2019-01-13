@@ -1,0 +1,10 @@
+commit 5ef7b40129d51af4c89f401eea178e48f444ff96
+Author: jskyzero <jskyzero@outlook.com>
+Date:   Mon Oct 29 09:08:15 2018 +0800
+
+    change python structure and add comments to python3 mini projects
+
+commit f8e8a4611fb0ddbdbd35beb0c438154f9cab1b33
+Merge: 604942b 2769d56
+Author: jskyzero <jskyzero@outlook.com>
+Date:   Sun Oct 28 15:21:46 2018 +0800
