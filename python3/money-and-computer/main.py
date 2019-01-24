@@ -9,10 +9,10 @@ TABLE = [
     "Name     ", "Price(k) ", "Time(y) ", "Current ",
     "Laptop   ", "22       ", "4+      ", "MacBook Pro ",
     "Phone    ", "14       ", "2+      ", "MI MIX 2S ",
-    "Console  ", "16       ", "4+      ", "PlayStation4 / Switch ",
-    "Monitor  ", "10       ", "4+      ", "Dell U2515h ",
-    "PC       ", "40       ", "4+      ", "I5 16G 256SSD GTX750Ti ",
-    "Tablet   ", "13       ", "2+      ", "Surface Pro 3 "
+    "Console  ", "16       ", "4+      ", "PlayStation4 / Switch $",
+    "Monitor  ", "10       ", "4+      ", "Dell U2515h $",
+    "PC       ", "35       ", "4+      ", "I5 16G 256SSD GTX750Ti ",
+    "Tablet   ", "13       ", "2+      ", "Surface Pro 3 $"
     ]
 
 if __name__ == "__main__":
@@ -32,4 +32,4 @@ if __name__ == "__main__":
   for x in range(len(result)):
     print_line(TABLE[0+4*(x+1):5+4*(x+1)], str(result[x])[:4] + " ")
 
-  print("each month pay total: <{:0.2}k> (k/m)".format(sum(result)))
+  print("each month pay total: <{:0.2}> (k)".format(sum(result)))
