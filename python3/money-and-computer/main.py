@@ -12,7 +12,7 @@ TABLE = [
     "Console  ", "16       ", "4+      ", "PlayStation4 / Switch $",
     "Monitor  ", "10       ", "4+      ", "Dell U2515h $",
     "PC       ", "35       ", "4+      ", "I5 16G 256SSD GTX750Ti ",
-    "Tablet   ", "13       ", "2+      ", "Surface Pro 3 $"
+    "Tablet   ", "13       ", "2+      ", "iPad Mini 5"
     ]
 
 if __name__ == "__main__":
