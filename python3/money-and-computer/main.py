@@ -7,11 +7,11 @@ money-and-computer
 TABLE = [
 #   類別          價格（千）    時間（年）    當前設備 
     "Name     ", "Price(k) ", "Time(y) ", "Current ",
-    "Laptop   ", "22       ", "3+      ", "MacBook Pro ",
-    "Phone    ", "14       ", "2+      ", "MI MIX 2S ",
-    "Console  ", "16       ", "4+      ", "PlayStation4 / Switch $",
-    "Monitor  ", "12       ", "4+      ", "Dell U2515h $",
-    "PC       ", "35       ", "4+      ", "I5 16G 256SSD GTX750Ti ",
+    "Laptop   ", "22       ", "4+      ", "MacBook Pro ",
+    "Phone    ", "14       ", "3+      ", "iPhone 11 Pro ",
+    "Console  ", "32       ", "4+      ", "PlayStation5 / Switch / Xbox Series X",
+    "Monitor  ", "12       ", "4+      ", "Dell U2718QM ",
+    "PC       ", "35       ", "4+      ", "I5 16G 256SSD GTX750Ti $",
     "Tablet   ", "13       ", "3+      ", "iPad Mini 5"
     ]
 
